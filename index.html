@@ -3,17 +3,216 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Retorno</title>
-  <meta name="description" content="Atendimento com IA no WhatsApp para empresas de climatização e energia solar.">
+  <title>Retorno · Atendimento no WhatsApp para empresas de ar-condicionado</title>
+  <meta name="description" content="Um assistente atende o WhatsApp da sua empresa de ar-condicionado quando você não pode, entende o pedido e deixa o lead pronto para você retornar.">
+  <meta property="og:title" content="Retorno">
+  <meta property="og:description" content="Nenhum cliente sem resposta no WhatsApp da sua empresa de ar-condicionado.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f1e1b'/%3E%3Ctext x='16' y='22.5' font-family='system-ui,sans-serif' font-size='18' font-weight='600' fill='%23f6f5f1' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
+  <header class="topo">
+    <div class="caixa topo__linha">
+      <a class="marca" href="./">Retorno</a>
+      <nav class="topo__nav" aria-label="Seções">
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#duvidas">Dúvidas</a>
+      </nav>
+      <a class="botao botao--pequeno" href="#contato">Quero testar</a>
+    </div>
+  </header>
+
   <main>
-    <h1>Retorno</h1>
-    <p class="destaque">Atendimento com inteligência artificial no WhatsApp da sua empresa de climatização ou energia solar.</p>
-    <p>O Retorno responde os clientes a qualquer hora, entende o que eles precisam, agenda a visita técnica e avisa o dono da empresa, para que nenhum contato se perca.</p>
-    <p>O projeto está em fase de desenvolvimento e testes.</p>
-    <p><a href="privacidade.html">Política de privacidade</a></p>
+    <section class="capa">
+      <div class="caixa capa__grade">
+        <div class="capa__texto">
+          <p class="rotulo">Para empresas de ar-condicionado</p>
+          <h1>Nenhum cliente sem resposta no WhatsApp da sua empresa</h1>
+          <p class="capa__sub">Um assistente atende quando você não pode, entende o que o cliente precisa e deixa o pedido pronto para você retornar.</p>
+          <div class="capa__acoes">
+            <a class="botao" href="#contato">Quero testar</a>
+            <a class="botao botao--linha" href="#como-funciona">Ver como funciona</a>
+          </div>
+          <p class="capa__nota">Em fase de piloto com as primeiras empresas.</p>
+        </div>
+
+        <figure class="demo" aria-label="Exemplo de conversa e do lead que ela gera">
+          <div class="chat">
+            <div class="chat__topo">
+              <span>Exemplo de conversa</span>
+              <span>Terça, 22:47</span>
+            </div>
+            <p class="balao balao--cliente">Boa noite, vocês instalam ar split?</p>
+            <p class="balao balao--empresa">Boa noite! Sou o assistente virtual da Clima Exemplo. Instalamos sim. Qual a capacidade do aparelho?</p>
+            <p class="balao balao--cliente">12 mil BTUs, é pra um quarto no 2º andar</p>
+            <p class="balao balao--empresa">Anotado. Em qual bairro fica?</p>
+            <p class="balao balao--cliente">Vila Mariana</p>
+            <p class="balao balao--empresa">Obrigado! A equipe retorna amanhã a partir das 8h.</p>
+          </div>
+          <div class="lead">
+            <div class="lead__topo">
+              <span class="lead__titulo">No painel, de manhã</span>
+              <span class="etiqueta">Novo</span>
+            </div>
+            <p class="lead__nome">Mariana · Vila Mariana</p>
+            <p class="lead__ficha">Instalação · split 12.000 BTUs · quarto no 2º andar</p>
+            <div class="lead__acoes">
+              <span class="mini">Ligar</span>
+              <span class="mini">Abrir conversa</span>
+            </div>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <section class="secao">
+      <div class="caixa">
+        <p class="rotulo">O problema</p>
+        <h2>Quem pede orçamento às 22h não espera até amanhã</h2>
+        <div class="colunas">
+          <div>
+            <h3>A mensagem fica sem resposta</h3>
+            <p>Fora do horário, no fim de semana ou com a equipe em obra, ninguém consegue responder na hora.</p>
+          </div>
+          <div>
+            <h3>O cliente pede para várias empresas</h3>
+            <p>Quem precisa de instalação ou conserto manda mensagem para três ou quatro e fecha com a que responde primeiro.</p>
+          </div>
+          <div>
+            <h3>De manhã, ninguém sabe quem pediu o quê</h3>
+            <p>No meio de tantas conversas, fica difícil achar quem está esperando retorno e o que cada um precisa.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao secao--fundo" id="como-funciona">
+      <div class="caixa">
+        <p class="rotulo">Como funciona</p>
+        <h2>Três passos, sem mudar o seu jeito de trabalhar</h2>
+        <ol class="passos">
+          <li>
+            <span class="passos__num">1</span>
+            <h3>O cliente escreve no WhatsApp da empresa</h3>
+            <p>No mesmo número que ele já conhece. Você continua usando o seu WhatsApp normalmente.</p>
+          </li>
+          <li>
+            <span class="passos__num">2</span>
+            <h3>O assistente atende e entende o pedido</h3>
+            <p>Responde na hora, por texto ou áudio, se apresenta como assistente virtual e pergunta uma coisa de cada vez: serviço, aparelho, bairro e urgência.</p>
+          </li>
+          <li>
+            <span class="passos__num">3</span>
+            <h3>Você retorna já sabendo do que se trata</h3>
+            <p>Cada conversa vira um lead com resumo no painel. É só abrir, ligar e fechar o serviço.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="secao">
+      <div class="caixa">
+        <p class="rotulo">O que você recebe</p>
+        <h2>Feito para o dia a dia de quem instala e conserta ar-condicionado</h2>
+        <div class="recursos">
+          <div>
+            <h3>Atende quando você escolher</h3>
+            <p>24 horas por dia ou só fora do horário. O assistente segue o horário da empresa e os feriados, e avisa o cliente quando a equipe volta.</p>
+          </div>
+          <div>
+            <h3>Entende áudio</h3>
+            <p>Muita gente prefere mandar mensagem de voz. O assistente ouve e responde do mesmo jeito.</p>
+          </div>
+          <div>
+            <h3>A ficha de cada lead numa linha</h3>
+            <p>Serviço, aparelho, bairro e urgência resumidos, sem precisar ler a conversa inteira.</p>
+          </div>
+          <div>
+            <h3>Você assume quando quiser</h3>
+            <p>Respondeu o cliente pelo celular? O assistente para de falar naquela conversa e deixa com você.</p>
+          </div>
+          <div>
+            <h3>Painel no celular e no computador</h3>
+            <p>Os pedidos da noite, quem está esperando retorno e o que já foi fechado, num lugar só.</p>
+          </div>
+          <div>
+            <h3>WhatsApp oficial</h3>
+            <p>Funciona pela API oficial da Meta. Nada de aplicativo pirata, que pode bloquear o número da empresa.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao secao--fundo">
+      <div class="caixa limites">
+        <div>
+          <p class="rotulo">O que ele não faz</p>
+          <h2>Quem decide é a sua empresa</h2>
+          <p class="limites__intro">O assistente conversa e organiza. Preço, prazo e diagnóstico continuam com você.</p>
+        </div>
+        <ul class="limites__lista">
+          <li><strong>Não passa preço nem prazo.</strong> Diz ao cliente que a equipe confirma esses detalhes.</li>
+          <li><strong>Não finge ser gente.</strong> Se apresenta como assistente virtual logo na primeira mensagem.</li>
+          <li><strong>Não dá diagnóstico técnico.</strong> Anota o problema para o técnico avaliar.</li>
+          <li><strong>Não promete o que a empresa não faz.</strong> Nem confirma bairro que você não atende.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="secao" id="duvidas">
+      <div class="caixa">
+        <p class="rotulo">Dúvidas</p>
+        <h2>Perguntas frequentes</h2>
+        <div class="faq">
+          <details>
+            <summary>Preciso trocar de número?</summary>
+            <p>Não. O assistente funciona no número de WhatsApp Business que a empresa já usa, e você continua respondendo pelo app quando quiser.</p>
+          </details>
+          <details>
+            <summary>O cliente sabe que está falando com um assistente?</summary>
+            <p>Sabe. Na primeira resposta ele se apresenta como o assistente virtual da sua empresa.</p>
+          </details>
+          <details>
+            <summary>E se eu quiser responder eu mesmo?</summary>
+            <p>É só responder pelo WhatsApp. O assistente percebe e fica quieto naquela conversa até ela esfriar.</p>
+          </details>
+          <details>
+            <summary>Quanto custa?</summary>
+            <p>Estamos em fase de piloto com as primeiras empresas. Fale com a gente para saber as condições.</p>
+          </details>
+          <details>
+            <summary>O que acontece com as conversas dos meus clientes?</summary>
+            <p>Elas ficam guardadas só para a sua empresa e são usadas para atender e montar os leads. Não vendemos dados nem usamos para publicidade. Os detalhes estão na <a href="privacidade.html">política de privacidade</a>.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao secao--ultima" id="contato">
+      <div class="caixa">
+        <div class="chamada">
+          <div>
+            <h2>Quer ver funcionando na sua empresa?</h2>
+            <p>Conte qual é a sua empresa e como vocês atendem hoje. A gente responde em até um dia útil.</p>
+          </div>
+          <a class="botao" href="mailto:victor.itakura.dev@gmail.com?subject=Quero%20testar%20o%20Retorno">Quero testar</a>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="rodape">
+    <div class="caixa rodape__grade">
+      <div>
+        <p class="marca">Retorno</p>
+        <p>Atendimento no WhatsApp para empresas de ar-condicionado.</p>
+      </div>
+      <div>
+        <p>E-mail: <a href="mailto:victor.itakura.dev@gmail.com">victor.itakura.dev@gmail.com</a></p>
+        <p><a href="privacidade.html">Política de privacidade</a></p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
